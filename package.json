@@ -1,5 +1,5 @@
 {
-  "name": "react-native-upi-intent",
+  "name": "react-native-upi-intent-module",
   "version": "1.0.0",
   "description": "A React Native UPI intent plugin",
   "main": "index.js",
@@ -8,19 +8,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/itsbhatt/react-native-upi-intent.git"
+    "url": "git+https://github.com/itsbhatt/react-native-upi-intent-module.git"
   },
   "keywords": [
     "react-native",
     "UPI",
     "UPI Intent"
   ],
-  "author": "Sonu Bhatt",
+  "author": "Sonu Bhatt <itssonubhatt@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/itsbhatt/react-native-upi-intent/issues"
+    "url": "https://github.com/itsbhatt/react-native-upi-intent-module/issues"
   },
-  "homepage": "https://github.com/itsbhatt/react-native-upi-intent#readme",
+  "homepage": "https://github.com/itsbhatt/react-native-upi-intent-module#readme",
   "peerDependencies": {
     "react": ">=16.8.1",
     "react-native": ">=0.60"
