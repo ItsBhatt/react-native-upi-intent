@@ -17,13 +17,13 @@
 ### Using npm
 
 ```sh
-npm install react-native-upi-intent
+npm install react-native-upi-intent-module
 ```
 
 ### Using yarn
 
 ```sh
-yarn add react-native-upi-intent
+yarn add react-native-upi-intent-module
 ```
 
 ## Linking
@@ -33,7 +33,7 @@ yarn add react-native-upi-intent
 For React Native 0.60 and above, the package will be automatically linked. If you are using an older version, you need to link the package manually:
 
 ```sh
-react-native link react-native-upi-intent
+react-native link react-native-upi-intent-module
 ```
 
 ### Manual Linking
@@ -47,8 +47,8 @@ If you are using React Native 0.60 and above, the package should be linked autom
    **`android/settings.gradle`**
 
    ```gradle
-   include ':react-native-upi-intent'
-   project(':react-native-upi-intent').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-upi-intent/android')
+   include ':react-native-upi-intent-module'
+   project(':react-native-upi-intent-module').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-upi-intent-module/android')
    ```
 
 2. **Add the package as a dependency in your app:**
@@ -57,7 +57,7 @@ If you are using React Native 0.60 and above, the package should be linked autom
 
    ```gradle
    dependencies {
-       implementation project(':react-native-upi-intent')
+       implementation project(':react-native-upi-intent-module')
    }
    ```
 
